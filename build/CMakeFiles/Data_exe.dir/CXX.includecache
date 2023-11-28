@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/arrayList.hpp
+bits/stdc++.h
+-
+
+../include/chainNode.hpp
+bits/stdc++.h
+-
+
+/home/marklee/Data_Structures_Big/Data_Structure.cpp
+bits/stdc++.h
+-
+arrayList.hpp
+/home/marklee/Data_Structures_Big/arrayList.hpp
+chainNode.hpp
+/home/marklee/Data_Structures_Big/chainNode.hpp
+

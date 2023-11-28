@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/Data_exe.dir/Data_Structure.cpp.o  -o Data_exe 

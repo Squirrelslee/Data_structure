@@ -1,0 +1,3 @@
+/home/marklee/Data_Structures_Big/build/CMakeFiles/rebuild_cache.dir
+/home/marklee/Data_Structures_Big/build/CMakeFiles/edit_cache.dir
+/home/marklee/Data_Structures_Big/build/CMakeFiles/Data_exe.dir
