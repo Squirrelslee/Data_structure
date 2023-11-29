@@ -4,5 +4,6 @@
 CMakeFiles/Data_exe.dir/Data_Structure.cpp.o: ../include/arrayList.hpp
 CMakeFiles/Data_exe.dir/Data_Structure.cpp.o: ../include/arrayStack.hpp
 CMakeFiles/Data_exe.dir/Data_Structure.cpp.o: ../include/chainNode.hpp
+CMakeFiles/Data_exe.dir/Data_Structure.cpp.o: ../include/chainNodeStack.hpp
 CMakeFiles/Data_exe.dir/Data_Structure.cpp.o: ../Data_Structure.cpp
 

@@ -66,12 +66,21 @@ void test03()//顺序栈，双向，单向用x = 1
 
 void test04()//链栈
 {
-    chainNodeStack<int>* L;
-    
+    LinkList<int> L;
+    L.push(10);
+    L.push(20);
+    L.push(30);
+    L.printfLink();
+    L.size();
+    L.pop();
+    L.printfLink();
+    L.size();
+
+
 }
 
 int main()
 {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
-    test03();
+    test04();
     return 0;
 }

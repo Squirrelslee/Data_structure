@@ -18,6 +18,10 @@ bits/stdc++.h
 bits/stdc++.h
 -
 
+../include/chainNodeStack.hpp
+bits/stdc++.h
+-
+
 /home/marklee/github/Data_structure/Data_Structure.cpp
 bits/stdc++.h
 -
@@ -27,4 +31,6 @@ chainNode.hpp
 /home/marklee/github/Data_structure/chainNode.hpp
 arrayStack.hpp
 /home/marklee/github/Data_structure/arrayStack.hpp
+chainNodeStack.hpp
+/home/marklee/github/Data_structure/chainNodeStack.hpp
 
