@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/marklee/Data_Structures_Big/include 
+CXX_INCLUDES = -I/home/marklee/github/Data_structure/include 
 
