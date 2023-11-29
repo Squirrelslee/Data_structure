@@ -3,6 +3,8 @@
 #include "chainNode.hpp"
 #include "arrayStack.hpp"
 #include "chainNodeStack.hpp"
+#include "arrayCirculatequeue.hpp"
+
 void test01()//线性表
 {
     arrayList<int> SqList;
@@ -79,8 +81,24 @@ void test04()//链栈
 
 }
 
+void test05()//循环顺序队列
+{
+    arrayCirculatequeue<int>L;
+    std::cout << L.size() << std::endl;
+    L.EndQueue(10);
+    L.EndQueue(20);
+    L.EndQueue(20);
+    L.EndQueue(20);
+    std::cout << "长度" << L.size() << std::endl;
+    L.DeQueue();
+    std::cout << "长度" << L.size() << std::endl;
+    L.DeQueue();
+    L.DeQueue();
+    L.DeQueue();
+    L.DeQueue();
+}
 int main()
-{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
-    test04();
+{
+    test05();
     return 0;
 }
