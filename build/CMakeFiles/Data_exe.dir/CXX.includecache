@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+../include/arrayCirculatequeue.hpp
+bits/stdc++.h
+-
+
 ../include/arrayList.hpp
 bits/stdc++.h
 -
@@ -33,4 +37,6 @@ arrayStack.hpp
 /home/marklee/github/Data_structure/arrayStack.hpp
 chainNodeStack.hpp
 /home/marklee/github/Data_structure/chainNodeStack.hpp
+arrayCirculatequeue.hpp
+/home/marklee/github/Data_structure/arrayCirculatequeue.hpp
 
