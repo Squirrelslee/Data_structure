@@ -2,6 +2,7 @@
 #include "arrayList.hpp"
 #include "chainNode.hpp"
 #include "arrayStack.hpp"
+#include "chainNodeStack.hpp"
 void test01()//线性表
 {
     arrayList<int> SqList;
@@ -45,7 +46,7 @@ void test02()//单链表
     chain<int> s;
 }
 
-void test03()
+void test03()//顺序栈，双向，单向用x = 1
 {
     arrayStack<int> L;
     L.push(&L, 1, 1);
@@ -62,6 +63,13 @@ void test03()
     for(int i = 0; i < 5; i++)
     std::cout << L.pop(&L, 1) << '\t' << L.pop(&L, 2) << std::endl;
 }
+
+void test04()//链栈
+{
+    chainNodeStack<int>* L;
+    
+}
+
 int main()
 {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
     test03();
