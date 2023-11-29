@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 #include "arrayList.hpp"
 #include "chainNode.hpp"
-
+#include "arrayStack.hpp"
 void test01()//线性表
 {
     arrayList<int> SqList;
@@ -45,8 +45,25 @@ void test02()//单链表
     chain<int> s;
 }
 
+void test03()
+{
+    arrayStack<int> L;
+    L.push(&L, 1, 1);
+    L.push(&L, 2, 1);
+    L.push(&L, 3, 1);
+    L.push(&L, 4, 1);
+    L.push(&L, 5, 1);
+    L.push(&L, 1, 2);
+    L.push(&L, 2, 2);
+    L.push(&L, 3, 2);
+    L.push(&L, 4, 2);
+    L.push(&L, 5, 2);
+    std::cout << L.size(L) << std::endl;
+    for(int i = 0; i < 5; i++)
+    std::cout << L.pop(&L, 1) << '\t' << L.pop(&L, 2) << std::endl;
+}
 int main()
 {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
-    test02();
+    test03();
     return 0;
 }

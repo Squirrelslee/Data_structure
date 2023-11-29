@@ -10,6 +10,10 @@
 bits/stdc++.h
 -
 
+../include/arrayStack.hpp
+bits/stdc++.h
+-
+
 ../include/chainNode.hpp
 bits/stdc++.h
 -
@@ -21,4 +25,6 @@ arrayList.hpp
 /home/marklee/github/Data_structure/arrayList.hpp
 chainNode.hpp
 /home/marklee/github/Data_structure/chainNode.hpp
+arrayStack.hpp
+/home/marklee/github/Data_structure/arrayStack.hpp
 
