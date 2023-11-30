@@ -6,5 +6,6 @@ CMakeFiles/Data_exe.dir/Data_Structure.cpp.o
  ../include/arrayList.hpp
  ../include/arrayStack.hpp
  ../include/chainNode.hpp
+ ../include/chainNodeQueue.hpp
  ../include/chainNodeStack.hpp
  /home/marklee/github/Data_structure/Data_Structure.cpp

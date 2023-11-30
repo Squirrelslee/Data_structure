@@ -60,15 +60,15 @@ include CMakeFiles/Data_exe.dir/flags.make
 CMakeFiles/Data_exe.dir/Data_Structure.cpp.o: CMakeFiles/Data_exe.dir/flags.make
 CMakeFiles/Data_exe.dir/Data_Structure.cpp.o: ../Data_Structure.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marklee/github/Data_structure/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Data_exe.dir/Data_Structure.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Data_exe.dir/Data_Structure.cpp.o -c /home/marklee/github/Data_structure/Data_Structure.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Data_exe.dir/Data_Structure.cpp.o -c /home/marklee/github/Data_structure/Data_Structure.cpp
 
 CMakeFiles/Data_exe.dir/Data_Structure.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Data_exe.dir/Data_Structure.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marklee/github/Data_structure/Data_Structure.cpp > CMakeFiles/Data_exe.dir/Data_Structure.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marklee/github/Data_structure/Data_Structure.cpp > CMakeFiles/Data_exe.dir/Data_Structure.cpp.i
 
 CMakeFiles/Data_exe.dir/Data_Structure.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Data_exe.dir/Data_Structure.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marklee/github/Data_structure/Data_Structure.cpp -o CMakeFiles/Data_exe.dir/Data_Structure.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marklee/github/Data_structure/Data_Structure.cpp -o CMakeFiles/Data_exe.dir/Data_Structure.cpp.s
 
 # Object files for target Data_exe
 Data_exe_OBJECTS = \

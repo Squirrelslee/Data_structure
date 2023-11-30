@@ -4,12 +4,12 @@
 #define OK 1
 
 template <class T>
-class Node
+class NodeStack
 {
 public:
     T data;
-    Node<T>* next;
-    Node(int value) : data(value), next(nullptr){}
+    NodeStack<T>* next;
+    NodeStack(int value) : data(value), next(nullptr){}
 };
 
 template <class T>
@@ -19,25 +19,26 @@ public:
     LinkList():head(nullptr){}
     void push(T value)
     {
-        Node<T>* newNode = new Node<T>(value);
+        NodeStack<T>* newNode = new NodeStack<T>(value);
         if(head == nullptr)//链表为空
         {
             head = newNode;//头指针指向newNode
         }
         else//链表不为空
         {
-            Node<T>* current = head;//申请指针指向头部从而找到指向空的指针
+            NodeStack<T>* current = head;//申请指针指向头部从而找到指向空的指针
             while(current->next != nullptr)//从头部开始
             {
                 current = current->next;//直到指针指向空
             }
             //指针指向空时
                 current->next = newNode;//指向堆区的value变量
+
         }       
     }
     void pop()
     {
-        Node<T>* second = head;//接受头指针
+        NodeStack<T>* second = head;//接受头指针
         if(head == nullptr)
         {return;}
         else
@@ -55,7 +56,7 @@ public:
     }
     void size()
     {
-        Node<T>* sizeo = head;
+        NodeStack<T>* sizeo = head;
         int i = 1;
         while(sizeo->next != nullptr)
         {
@@ -66,7 +67,7 @@ public:
     }
     void printfLink()
     {
-        Node<T>* printLink = head;
+        NodeStack<T>* printLink = head;
         while(printLink!= nullptr)
         {
             std::cout << printLink->data << '\t';
@@ -77,8 +78,8 @@ public:
     ~LinkList()//析构
     {
         //使用指针指向头部
-        Node<T>* current = head;
-        Node<T>* next;
+        NodeStack<T>* current = head;
+        NodeStack<T>* next;
         while(current != nullptr)//循环从头部开始删除指针
         {
             next = current->next;//使用next指针保存当前指针指向的下一个指针
@@ -87,6 +88,6 @@ public:
         }
     }
 private:
-    Node<T>* head;
+    NodeStack<T>* head;
 
 };

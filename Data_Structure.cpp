@@ -4,7 +4,7 @@
 #include "arrayStack.hpp"
 #include "chainNodeStack.hpp"
 #include "arrayCirculatequeue.hpp"
-
+#include "chainNodeQueue.hpp"
 void test01()//线性表
 {
     arrayList<int> SqList;
@@ -77,8 +77,6 @@ void test04()//链栈
     L.pop();
     L.printfLink();
     L.size();
-
-
 }
 
 void test05()//循环顺序队列
@@ -97,8 +95,27 @@ void test05()//循环顺序队列
     L.DeQueue();
     L.DeQueue();
 }
+
+void test06()//栈队列
+{
+    chainNodeQueue<int> L;
+    L.pushback(10);
+    L.pushback(20);
+    L.pushback(30);
+    L.pushback(40);
+    L.printQueue();
+    L.size();
+    L.popfront();
+
+    L.printQueue();
+    L.popfront();
+
+    L.popfront();
+    L.size();
+
+}
 int main()
 {
-    test05();
+    test06();
     return 0;
 }
