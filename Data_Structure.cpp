@@ -1,10 +1,10 @@
-#include <bits/stdc++.h>
 #include "arrayList.hpp"
 #include "chainNode.hpp"
 #include "arrayStack.hpp"
 #include "chainNodeStack.hpp"
 #include "arrayCirculatequeue.hpp"
 #include "chainNodeQueue.hpp"
+#include "binaryTree.hpp"
 void test01()//线性表
 {
     arrayList<int> SqList;
@@ -114,8 +114,26 @@ void test06()//栈队列
     L.size();
 
 }
+
+void test07()//二叉树
+{
+
+    BinaryTree<char> L;
+    L.IsEmpty();
+    L.CreatBinaryTree(L.head);
+    std::cout << "前序遍历：";
+    L.PreOrder(L.head);
+    std::cout << std::endl;
+    std::cout << "中序遍历：";
+    L.InOrder(L.head);
+    std::cout << std::endl;
+    std::cout << "后序遍历：";
+    L.PostOrder(L.head);
+    std::cout << std::endl;    
+
+}
 int main()
 {
-    test06();
+    test07();
     return 0;
 }
