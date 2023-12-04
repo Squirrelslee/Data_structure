@@ -18,10 +18,6 @@ bits/stdc++.h
 bits/stdc++.h
 -
 
-../include/binaryTree.hpp
-bits/stdc++.h
--
-
 ../include/chainNode.hpp
 bits/stdc++.h
 -
@@ -31,6 +27,10 @@ bits/stdc++.h
 -
 
 ../include/chainNodeStack.hpp
+bits/stdc++.h
+-
+
+../include/chainbinaryTree.hpp
 bits/stdc++.h
 -
 
@@ -47,6 +47,6 @@ arrayCirculatequeue.hpp
 /home/marklee/github/Data_structure/arrayCirculatequeue.hpp
 chainNodeQueue.hpp
 /home/marklee/github/Data_structure/chainNodeQueue.hpp
-binaryTree.hpp
-/home/marklee/github/Data_structure/binaryTree.hpp
+chainbinaryTree.hpp
+/home/marklee/github/Data_structure/chainbinaryTree.hpp
 

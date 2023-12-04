@@ -4,7 +4,7 @@
 #include "chainNodeStack.hpp"
 #include "arrayCirculatequeue.hpp"
 #include "chainNodeQueue.hpp"
-#include "binaryTree.hpp"
+#include "chainbinaryTree.hpp"
 void test01()//线性表
 {
     arrayList<int> SqList;
