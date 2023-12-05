@@ -1,7 +1,5 @@
 #pragma once
 
-#include <bits/stdc++.h>
-
 #define ERROR 0
 #define OK 1
 #define MAXSIZE 20

@@ -5,6 +5,7 @@
 #include "arrayCirculatequeue.hpp"
 #include "chainNodeQueue.hpp"
 #include "chainbinaryTree.hpp"
+#include "arrayMGraph.hpp"
 void test01()//线性表
 {
     arrayList<int> SqList;
@@ -132,8 +133,14 @@ void test07()//二叉树
     std::cout << std::endl;    
 
 }
+
+void test08()
+{
+    Queue<char>L;
+    L.empty();
+}
 int main()
 {
-    test07();
+    test08();
     return 0;
 }

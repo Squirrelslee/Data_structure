@@ -1,6 +1,5 @@
 #pragma once 
 
-#include <bits/stdc++.h>
 int DataIndex = 0;
 char* c = "ABCDH#K###E##CFI###G#J##0";
 template <class T>

@@ -7,32 +7,22 @@
 #IncludeRegexTransform: 
 
 ../include/arrayCirculatequeue.hpp
-bits/stdc++.h
--
 
 ../include/arrayList.hpp
 bits/stdc++.h
 -
 
+../include/arrayMGraph.hpp
+
 ../include/arrayStack.hpp
-bits/stdc++.h
--
 
 ../include/chainNode.hpp
-bits/stdc++.h
--
 
 ../include/chainNodeQueue.hpp
-bits/stdc++.h
--
 
 ../include/chainNodeStack.hpp
-bits/stdc++.h
--
 
 ../include/chainbinaryTree.hpp
-bits/stdc++.h
--
 
 /home/marklee/github/Data_structure/Data_Structure.cpp
 arrayList.hpp
@@ -49,4 +39,6 @@ chainNodeQueue.hpp
 /home/marklee/github/Data_structure/chainNodeQueue.hpp
 chainbinaryTree.hpp
 /home/marklee/github/Data_structure/chainbinaryTree.hpp
+arrayMGraph.hpp
+/home/marklee/github/Data_structure/arrayMGraph.hpp
 

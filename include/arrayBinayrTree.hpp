@@ -1,5 +1,5 @@
 #pragma once 
-#include <bits/stdc++.h>
+
 #define MAXSIZE 100 //存储空间初始分配量
 #define MAX_TREE_SIZE 100 //二叉最大结点数
 #define ERROR 0
