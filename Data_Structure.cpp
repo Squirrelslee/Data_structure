@@ -1,3 +1,4 @@
+
 #include "arrayList.hpp"
 #include "chainNode.hpp"
 #include "arrayStack.hpp"
@@ -6,6 +7,7 @@
 #include "chainNodeQueue.hpp"
 #include "chainbinaryTree.hpp"
 #include "arrayMGraph.hpp"
+#include <iostream>
 void test01()//线性表
 {
     arrayList<int> SqList;
@@ -136,8 +138,11 @@ void test07()//二叉树
 
 void test08()
 {
-    Queue<char>L;
-    L.empty();
+    std::string Vexs = "ABCDEFGHI";
+    MGraph<char>G(Vexs);
+    G.DFSTraverse();
+    G.BFSTraverse();
+    std::cout << std::endl;
 }
 int main()
 {
