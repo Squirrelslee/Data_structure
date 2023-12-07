@@ -16,6 +16,10 @@ bits/stdc++.h
 
 ../include/arrayStack.hpp
 
+../include/chainMGraph.hpp
+iostream
+-
+
 ../include/chainNode.hpp
 
 ../include/chainNodeQueue.hpp
@@ -41,6 +45,8 @@ chainbinaryTree.hpp
 /home/marklee/github/Data_structure/chainbinaryTree.hpp
 arrayMGraph.hpp
 /home/marklee/github/Data_structure/arrayMGraph.hpp
+chainMGraph.hpp
+/home/marklee/github/Data_structure/chainMGraph.hpp
 iostream
 -
 

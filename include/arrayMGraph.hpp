@@ -18,8 +18,6 @@ public:
         if(front == rear)
             return TRUE;
             return FALSE;
-        
-
     }
     void Insert(T e)
     {

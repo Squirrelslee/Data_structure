@@ -7,6 +7,7 @@
 #include "chainNodeQueue.hpp"
 #include "chainbinaryTree.hpp"
 #include "arrayMGraph.hpp"
+#include "chainMGraph.hpp"
 #include <iostream>
 void test01()//线性表
 {
@@ -136,7 +137,7 @@ void test07()//二叉树
 
 }
 
-void test08()
+void test08()//图矩阵
 {
     std::string Vexs = "ABCDEFGHI";
     MGraph<char>G(Vexs);
@@ -144,8 +145,19 @@ void test08()
     G.BFSTraverse();
     std::cout << std::endl;
 }
+
+void test09()//图链表
+{
+    chainQueue<int>L;
+    GRAPH c;
+    c.creatGraph();
+    c.DFSTraverse();
+    std::cout << std::endl;
+    c.BFSTraverse();
+    std::cout << std::endl;
+}
 int main()
 {
-    test08();
+    test09();
     return 0;
 }
