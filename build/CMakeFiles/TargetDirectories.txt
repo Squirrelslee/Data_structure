@@ -1,3 +1,0 @@
-/home/marklee/github/Data_structure/build/CMakeFiles/rebuild_cache.dir
-/home/marklee/github/Data_structure/build/CMakeFiles/edit_cache.dir
-/home/marklee/github/Data_structure/build/CMakeFiles/Data_exe.dir
