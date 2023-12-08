@@ -516,23 +516,112 @@ void test06()
 }
 
 template <class T>
+class TreeNode
+{
+public:
+    TreeNode(){}
+    TreeNode(std::string::iterator value):lchild(nullptr),rchild(nullptr),data(value){}
+    std::string::iterator data;
+    TreeNode<T>* lchild;
+    TreeNode<T>* rchild;
+private:
+
+};
+template <class T>
 class ChainTree
 {
 public:
-    ChainTree(T c):lchild(nullptr),rchild(nullptr)
+    ChainTree(std::string::iterator begin, std::string::iterator end):theIndex(0),begin(begin),end(end)
     {
-        this->Tree = c;
+        it = begin;
     }
-    T Tree;
+    TreeNode<T>* firstNode;
+    std::string Tree;
+    void CreatTree(TreeNode<T>* &temp);
+    void PerOnder(TreeNode<T>* temp);
+    void MidOnder(TreeNode<T>* temp);
+    void LastOnder(TreeNode<T>* temp);
+    void DestoryTree(TreeNode<T>* temp);
+    ~ChainTree(){};
 private:
-    ChainNode<T>* lchild;
-    ChainNode<T>* rchild;
-
+    std::string::iterator it;
+    int theIndex;
+    std::string::iterator begin;
+    std::string::iterator end;
 };
+template <class T>
+void ChainTree<T>::CreatTree(TreeNode<T>* &temp)
+    {
+        if(it != end)
+            if(*it == '#')
+            {
+                temp = nullptr;
+                it++;
+            }
+            else
+            {
+                temp = new TreeNode<T>;
+                temp->data = it;
+                it++;
+                CreatTree(temp->lchild);
+                CreatTree(temp->rchild);
+            }
+    }
+template <class T>
+void ChainTree<T>::PerOnder(TreeNode<T>* temp)
+{
+    if(temp != nullptr)
+    {
+        std::cout << *temp->data;
+        PerOnder(temp->lchild);
+        PerOnder(temp->rchild);
+    }
+}
+template <class T>
+void ChainTree<T>::MidOnder(TreeNode<T>* temp)
+{
+    if(temp != nullptr)
+    {
+        MidOnder(temp->lchild);
+        std::cout << *temp->data;
+        MidOnder(temp->rchild);
+    }
+}
+template <class T>
+void ChainTree<T>::LastOnder(TreeNode<T>* temp)
+{
+    if(temp != nullptr)
+    {
+        LastOnder(temp->lchild);
+        LastOnder(temp->rchild);
+        std::cout << *temp->data;
+    }
+}
+template <class T>
+void ChainTree<T>::DestoryTree(TreeNode<T>* temp)
+{
+    if(temp != nullptr)
+    {
+        DestoryTree(temp->lchild);
+        DestoryTree(temp->rchild);
+        delete temp;
+        temp = nullptr;
+    }
+
+}
+
 void test07()
 {
-    std::string c = "ABCDH#K###E##CFI###G#J##0";
-    ChainTree<std::string>L(c);
+    std::string c = "ABDH#K###E##CFI###G#J##";
+    ChainTree<char>L(c.begin(),c.end());
+    L.CreatTree(L.firstNode);
+    L.PerOnder(L.firstNode);
+    std::cout << std::endl;
+    L.MidOnder(L.firstNode);
+    std::cout << std::endl;
+    L.LastOnder(L.firstNode);
+    std::cout << std::endl;
+    L.DestoryTree(L.firstNode);
 }
 
 int main()
