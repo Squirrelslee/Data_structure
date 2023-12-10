@@ -1,0 +1,3 @@
+/home/marklee/cmake/build/CMakeFiles/rebuild_cache.dir
+/home/marklee/cmake/build/CMakeFiles/edit_cache.dir
+/home/marklee/cmake/build/CMakeFiles/helloword_cmake.dir

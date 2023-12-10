@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/marklee/cmake/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/helloword_cmake.dir/helloword.cpp.o -c /home/marklee/cmake/5.3.1/helloword.cpp",
+  "file": "/home/marklee/cmake/5.3.1/helloword.cpp"
+}
+]

@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/helloword_cmake.dir/helloword.cpp.o  -o helloword_cmake 
