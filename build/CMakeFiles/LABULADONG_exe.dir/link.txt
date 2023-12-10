@@ -1,1 +1,0 @@
-/usr/bin/g++   -g -g   CMakeFiles/LABULADONG_exe.dir/labuladong.cc.o  -o LABULADONG_exe 

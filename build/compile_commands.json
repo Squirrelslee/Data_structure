@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/marklee/github/Data_structure/build",
-  "command": "/usr/bin/g++   -I/home/marklee/github/Data_structure/include   -g -g   -o CMakeFiles/LABULADONG_exe.dir/labuladong.cc.o -c /home/marklee/github/Data_structure/labuladong.cc",
-  "file": "/home/marklee/github/Data_structure/labuladong.cc"
-}
-]
