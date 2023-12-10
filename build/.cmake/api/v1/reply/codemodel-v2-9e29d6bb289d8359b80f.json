@@ -11,7 +11,11 @@
 						"string" : "3.16"
 					},
 					"projectIndex" : 0,
-					"source" : "."
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
 				}
 			],
 			"name" : "Debug",
@@ -22,10 +26,23 @@
 					[
 						0
 					],
-					"name" : "LABULADONG"
+					"name" : "LABULADONG",
+					"targetIndexes" : 
+					[
+						0
+					]
 				}
 			],
-			"targets" : []
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "LABULADONG_exe::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LABULADONG_exe-Debug-d243c0084e7eec7dfdc9.json",
+					"name" : "LABULADONG_exe",
+					"projectIndex" : 0
+				}
+			]
 		}
 	],
 	"kind" : "codemodel",

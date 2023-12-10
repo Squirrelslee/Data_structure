@@ -110,6 +110,46 @@ depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+#=============================================================================
+# Target rules for targets named LABULADONG_exe
+
+# Build rule for target.
+LABULADONG_exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 LABULADONG_exe
+.PHONY : LABULADONG_exe
+
+# fast build rule for target.
+LABULADONG_exe/fast:
+	$(MAKE) -f CMakeFiles/LABULADONG_exe.dir/build.make CMakeFiles/LABULADONG_exe.dir/build
+.PHONY : LABULADONG_exe/fast
+
+labuladong.o: labuladong.cc.o
+
+.PHONY : labuladong.o
+
+# target to build an object file
+labuladong.cc.o:
+	$(MAKE) -f CMakeFiles/LABULADONG_exe.dir/build.make CMakeFiles/LABULADONG_exe.dir/labuladong.cc.o
+.PHONY : labuladong.cc.o
+
+labuladong.i: labuladong.cc.i
+
+.PHONY : labuladong.i
+
+# target to preprocess a source file
+labuladong.cc.i:
+	$(MAKE) -f CMakeFiles/LABULADONG_exe.dir/build.make CMakeFiles/LABULADONG_exe.dir/labuladong.cc.i
+.PHONY : labuladong.cc.i
+
+labuladong.s: labuladong.cc.s
+
+.PHONY : labuladong.s
+
+# target to generate assembly for a file
+labuladong.cc.s:
+	$(MAKE) -f CMakeFiles/LABULADONG_exe.dir/build.make CMakeFiles/LABULADONG_exe.dir/labuladong.cc.s
+.PHONY : labuladong.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -118,6 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... LABULADONG_exe"
+	@echo "... labuladong.o"
+	@echo "... labuladong.i"
+	@echo "... labuladong.s"
 .PHONY : help
 
 
