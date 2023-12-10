@@ -1,0 +1,3 @@
+/home/marklee/relationship/build/CMakeFiles/rebuild_cache.dir
+/home/marklee/relationship/build/CMakeFiles/edit_cache.dir
+/home/marklee/relationship/build/CMakeFiles/relation_cmake.dir

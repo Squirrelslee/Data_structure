@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Soldier.h
+Gun.h
+../include/Gun.h
+string
+-
+iostream
+-
+
+/home/marklee/cmake/solider/Gun.h
+string
+-
+iostream
+-
+
+/home/marklee/cmake/solider/main.cpp
+Gun.h
+/home/marklee/cmake/solider/Gun.h
+Soldier.h
+/home/marklee/cmake/solider/Soldier.h
+
+/home/marklee/cmake/solider/src/Gun.cpp
+Gun.h
+/home/marklee/cmake/solider/src/Gun.h
+
+/home/marklee/cmake/solider/src/Soldier.cpp
+Soldier.h
+/home/marklee/cmake/solider/src/Soldier.h
+

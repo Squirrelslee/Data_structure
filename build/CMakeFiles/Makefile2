@@ -44,16 +44,16 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/marklee/github/Data_structure
+CMAKE_SOURCE_DIR = /home/marklee/cmake/5.3.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/marklee/github/Data_structure/build
+CMAKE_BINARY_DIR = /home/marklee/cmake/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Data_exe.dir/all
+all: CMakeFiles/helloword_cmake.dir/all
 
 .PHONY : all
 
@@ -63,36 +63,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Data_exe.dir/clean
+clean: CMakeFiles/helloword_cmake.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Data_exe.dir
+# Target rules for target CMakeFiles/helloword_cmake.dir
 
 # All Build rule for target.
-CMakeFiles/Data_exe.dir/all:
-	$(MAKE) -f CMakeFiles/Data_exe.dir/build.make CMakeFiles/Data_exe.dir/depend
-	$(MAKE) -f CMakeFiles/Data_exe.dir/build.make CMakeFiles/Data_exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/marklee/github/Data_structure/build/CMakeFiles --progress-num=1,2 "Built target Data_exe"
-.PHONY : CMakeFiles/Data_exe.dir/all
+CMakeFiles/helloword_cmake.dir/all:
+	$(MAKE) -f CMakeFiles/helloword_cmake.dir/build.make CMakeFiles/helloword_cmake.dir/depend
+	$(MAKE) -f CMakeFiles/helloword_cmake.dir/build.make CMakeFiles/helloword_cmake.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/marklee/cmake/build/CMakeFiles --progress-num=1,2 "Built target helloword_cmake"
+.PHONY : CMakeFiles/helloword_cmake.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Data_exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/marklee/github/Data_structure/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Data_exe.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/marklee/github/Data_structure/build/CMakeFiles 0
-.PHONY : CMakeFiles/Data_exe.dir/rule
+CMakeFiles/helloword_cmake.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/marklee/cmake/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/helloword_cmake.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/marklee/cmake/build/CMakeFiles 0
+.PHONY : CMakeFiles/helloword_cmake.dir/rule
 
 # Convenience name for target.
-Data_exe: CMakeFiles/Data_exe.dir/rule
+helloword_cmake: CMakeFiles/helloword_cmake.dir/rule
 
-.PHONY : Data_exe
+.PHONY : helloword_cmake
 
 # clean rule for target.
-CMakeFiles/Data_exe.dir/clean:
-	$(MAKE) -f CMakeFiles/Data_exe.dir/build.make CMakeFiles/Data_exe.dir/clean
-.PHONY : CMakeFiles/Data_exe.dir/clean
+CMakeFiles/helloword_cmake.dir/clean:
+	$(MAKE) -f CMakeFiles/helloword_cmake.dir/build.make CMakeFiles/helloword_cmake.dir/clean
+.PHONY : CMakeFiles/helloword_cmake.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

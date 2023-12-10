@@ -1,4 +1,4 @@
-# Install script for directory: /home/marklee/github/Data_structure
+# Install script for directory: /home/marklee/cmake/5.3.1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/marklee/github/Data_structure/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/marklee/cmake/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

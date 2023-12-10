@@ -1,0 +1,3 @@
+/home/marklee/cmake/solider/build/CMakeFiles/rebuild_cache.dir
+/home/marklee/cmake/solider/build/CMakeFiles/edit_cache.dir
+/home/marklee/cmake/solider/build/CMakeFiles/my_cmake_exe.dir

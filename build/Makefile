@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/marklee/github/Data_structure
+CMAKE_SOURCE_DIR = /home/marklee/cmake/5.3.1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/marklee/github/Data_structure/build
+CMAKE_BINARY_DIR = /home/marklee/cmake/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/marklee/github/Data_structure/build/CMakeFiles /home/marklee/github/Data_structure/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/marklee/cmake/build/CMakeFiles /home/marklee/cmake/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/marklee/github/Data_structure/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/marklee/cmake/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Data_exe
+# Target rules for targets named helloword_cmake
 
 # Build rule for target.
-Data_exe: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Data_exe
-.PHONY : Data_exe
+helloword_cmake: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 helloword_cmake
+.PHONY : helloword_cmake
 
 # fast build rule for target.
-Data_exe/fast:
-	$(MAKE) -f CMakeFiles/Data_exe.dir/build.make CMakeFiles/Data_exe.dir/build
-.PHONY : Data_exe/fast
+helloword_cmake/fast:
+	$(MAKE) -f CMakeFiles/helloword_cmake.dir/build.make CMakeFiles/helloword_cmake.dir/build
+.PHONY : helloword_cmake/fast
 
-Data_Structure.o: Data_Structure.cpp.o
+helloword.o: helloword.cpp.o
 
-.PHONY : Data_Structure.o
+.PHONY : helloword.o
 
 # target to build an object file
-Data_Structure.cpp.o:
-	$(MAKE) -f CMakeFiles/Data_exe.dir/build.make CMakeFiles/Data_exe.dir/Data_Structure.cpp.o
-.PHONY : Data_Structure.cpp.o
+helloword.cpp.o:
+	$(MAKE) -f CMakeFiles/helloword_cmake.dir/build.make CMakeFiles/helloword_cmake.dir/helloword.cpp.o
+.PHONY : helloword.cpp.o
 
-Data_Structure.i: Data_Structure.cpp.i
+helloword.i: helloword.cpp.i
 
-.PHONY : Data_Structure.i
+.PHONY : helloword.i
 
 # target to preprocess a source file
-Data_Structure.cpp.i:
-	$(MAKE) -f CMakeFiles/Data_exe.dir/build.make CMakeFiles/Data_exe.dir/Data_Structure.cpp.i
-.PHONY : Data_Structure.cpp.i
+helloword.cpp.i:
+	$(MAKE) -f CMakeFiles/helloword_cmake.dir/build.make CMakeFiles/helloword_cmake.dir/helloword.cpp.i
+.PHONY : helloword.cpp.i
 
-Data_Structure.s: Data_Structure.cpp.s
+helloword.s: helloword.cpp.s
 
-.PHONY : Data_Structure.s
+.PHONY : helloword.s
 
 # target to generate assembly for a file
-Data_Structure.cpp.s:
-	$(MAKE) -f CMakeFiles/Data_exe.dir/build.make CMakeFiles/Data_exe.dir/Data_Structure.cpp.s
-.PHONY : Data_Structure.cpp.s
+helloword.cpp.s:
+	$(MAKE) -f CMakeFiles/helloword_cmake.dir/build.make CMakeFiles/helloword_cmake.dir/helloword.cpp.s
+.PHONY : helloword.cpp.s
 
 # Help Target
 help:
@@ -158,10 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... Data_exe"
-	@echo "... Data_Structure.o"
-	@echo "... Data_Structure.i"
-	@echo "... Data_Structure.s"
+	@echo "... helloword_cmake"
+	@echo "... helloword.o"
+	@echo "... helloword.i"
+	@echo "... helloword.s"
 .PHONY : help
 
 
