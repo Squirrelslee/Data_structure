@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/myArray.hpp
+iostream
+-
+
+/home/marklee/C++/012_template/12 class_template_array/package.cpp
+iostream
+-
+myArray.hpp
+/home/marklee/C++/012_template/12 class_template_array/myArray.hpp
+string
+-
+

@@ -1,0 +1,3 @@
+/home/marklee/C++/Employee_Management_System/build/CMakeFiles/rebuild_cache.dir
+/home/marklee/C++/Employee_Management_System/build/CMakeFiles/edit_cache.dir
+/home/marklee/C++/Employee_Management_System/build/CMakeFiles/EmployeeManagerSystem.dir

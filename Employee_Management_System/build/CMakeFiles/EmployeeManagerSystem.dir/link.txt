@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/EmployeeManagerSystem.dir/main.cpp.o CMakeFiles/EmployeeManagerSystem.dir/src/workManager.cpp.o CMakeFiles/EmployeeManagerSystem.dir/src/Employee.cpp.o CMakeFiles/EmployeeManagerSystem.dir/src/Manager.cpp.o CMakeFiles/EmployeeManagerSystem.dir/src/Boss.cpp.o  -o EmployeeManagerSystem 
