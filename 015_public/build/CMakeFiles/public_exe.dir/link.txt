@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/public_exe.dir/public_.cpp.o CMakeFiles/public_exe.dir/src/speechManager.cpp.o  -o public_exe 
