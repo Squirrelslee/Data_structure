@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/marklee/github/Data_structure
+CMAKE_SOURCE_DIR = /home/marklee/find_a_job/git/Data_structure
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/marklee/github/Data_structure/build
+CMAKE_BINARY_DIR = /home/marklee/find_a_job/git/Data_structure/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -74,14 +74,14 @@ clean: CMakeFiles/Data_exe.dir/clean
 CMakeFiles/Data_exe.dir/all:
 	$(MAKE) -f CMakeFiles/Data_exe.dir/build.make CMakeFiles/Data_exe.dir/depend
 	$(MAKE) -f CMakeFiles/Data_exe.dir/build.make CMakeFiles/Data_exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/marklee/github/Data_structure/build/CMakeFiles --progress-num=1,2 "Built target Data_exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/marklee/find_a_job/git/Data_structure/build/CMakeFiles --progress-num=1,2 "Built target Data_exe"
 .PHONY : CMakeFiles/Data_exe.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Data_exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/marklee/github/Data_structure/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/marklee/find_a_job/git/Data_structure/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Data_exe.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/marklee/github/Data_structure/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/marklee/find_a_job/git/Data_structure/build/CMakeFiles 0
 .PHONY : CMakeFiles/Data_exe.dir/rule
 
 # Convenience name for target.

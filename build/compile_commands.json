@@ -1,7 +1,7 @@
 [
 {
-  "directory": "/home/marklee/github/Data_structure/build",
-  "command": "/usr/bin/g++   -I/home/marklee/github/Data_structure/include   -g -g   -o CMakeFiles/Data_exe.dir/Data_Structure.cpp.o -c /home/marklee/github/Data_structure/Data_Structure.cpp",
-  "file": "/home/marklee/github/Data_structure/Data_Structure.cpp"
+  "directory": "/home/marklee/find_a_job/git/Data_structure/build",
+  "command": "/usr/bin/g++   -I/home/marklee/find_a_job/git/Data_structure/include   -g -g   -o CMakeFiles/Data_exe.dir/Data_Structure.cpp.o -c /home/marklee/find_a_job/git/Data_structure/Data_Structure.cpp",
+  "file": "/home/marklee/find_a_job/git/Data_structure/Data_Structure.cpp"
 }
 ]

@@ -6,5 +6,5 @@ CXX_FLAGS =  -g -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/marklee/github/Data_structure/include 
+CXX_INCLUDES = -I/home/marklee/find_a_job/git/Data_structure/include 
 

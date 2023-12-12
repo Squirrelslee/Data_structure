@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/marklee/github/Data_structure/build"
+			"value" : "/home/marklee/find_a_job/git/Data_structure/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -595,7 +595,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/marklee/github/Data_structure"
+			"value" : "/home/marklee/find_a_job/git/Data_structure"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1131,7 +1131,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/marklee/github/Data_structure/build"
+			"value" : "/home/marklee/find_a_job/git/Data_structure/build"
 		},
 		{
 			"name" : "Data_Structure_BIG_SOURCE_DIR",
@@ -1143,7 +1143,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/marklee/github/Data_structure"
+			"value" : "/home/marklee/find_a_job/git/Data_structure"
 		}
 	],
 	"kind" : "cache",

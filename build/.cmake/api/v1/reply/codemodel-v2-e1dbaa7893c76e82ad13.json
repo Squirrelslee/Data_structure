@@ -38,7 +38,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Data_exe::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Data_exe-Debug-a3145c61911362aa0124.json",
+					"jsonFile" : "target-Data_exe-Debug-75a7e642bd103ec6dcbd.json",
 					"name" : "Data_exe",
 					"projectIndex" : 0
 				}
@@ -48,8 +48,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/marklee/github/Data_structure/build",
-		"source" : "/home/marklee/github/Data_structure"
+		"build" : "/home/marklee/find_a_job/git/Data_structure/build",
+		"source" : "/home/marklee/find_a_job/git/Data_structure"
 	},
 	"version" : 
 	{
