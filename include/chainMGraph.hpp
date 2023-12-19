@@ -137,7 +137,6 @@ public:
 					e->adjvex=j;
                     e->next = GL[i].firstedge;//指向空
                     GL[i].firstedge = e;
-
                 }
             }
         }

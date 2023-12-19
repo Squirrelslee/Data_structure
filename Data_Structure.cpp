@@ -9,6 +9,7 @@
 #include "arrayMGraph.hpp"
 #include "chainMGraph.hpp"
 #include <iostream>
+#include "Graph.hpp"
 void test01()//线性表
 {
     arrayList<int> SqList;
@@ -156,8 +157,17 @@ void test09()//图链表
     c.BFSTraverse();
     std::cout << std::endl;
 }
+
+void test10()
+{
+    std::string Vexs = "ABCDEFGHI";
+    ArrayGraph<char> GG(Vexs);
+    GG.DFSTraverse();
+    GG.BFSTraverse();
+
+}
 int main()
 {
-    test09();
+    test10();
     return 0;
 }

@@ -9,7 +9,7 @@ public:
     T data;
     BTNode<T>* lchild;//两个孩子
     BTNode<T>* rchild;
-    BTNode(int value):data(value),lchild(nullptr),rchild(nullptr){}
+    BTNode(T value):data(value),lchild(nullptr),rchild(nullptr){}
 };
 
 template <class T>
