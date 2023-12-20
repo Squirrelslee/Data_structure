@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/leet_exe.dir/leetcode.cc.o  -o leet_exe 
