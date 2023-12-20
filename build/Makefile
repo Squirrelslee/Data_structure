@@ -123,32 +123,32 @@ leet_exe/fast:
 	$(MAKE) -f CMakeFiles/leet_exe.dir/build.make CMakeFiles/leet_exe.dir/build
 .PHONY : leet_exe/fast
 
-leetcode.o: leetcode.cc.o
+leetcode.o: leetcode.cpp.o
 
 .PHONY : leetcode.o
 
 # target to build an object file
-leetcode.cc.o:
-	$(MAKE) -f CMakeFiles/leet_exe.dir/build.make CMakeFiles/leet_exe.dir/leetcode.cc.o
-.PHONY : leetcode.cc.o
+leetcode.cpp.o:
+	$(MAKE) -f CMakeFiles/leet_exe.dir/build.make CMakeFiles/leet_exe.dir/leetcode.cpp.o
+.PHONY : leetcode.cpp.o
 
-leetcode.i: leetcode.cc.i
+leetcode.i: leetcode.cpp.i
 
 .PHONY : leetcode.i
 
 # target to preprocess a source file
-leetcode.cc.i:
-	$(MAKE) -f CMakeFiles/leet_exe.dir/build.make CMakeFiles/leet_exe.dir/leetcode.cc.i
-.PHONY : leetcode.cc.i
+leetcode.cpp.i:
+	$(MAKE) -f CMakeFiles/leet_exe.dir/build.make CMakeFiles/leet_exe.dir/leetcode.cpp.i
+.PHONY : leetcode.cpp.i
 
-leetcode.s: leetcode.cc.s
+leetcode.s: leetcode.cpp.s
 
 .PHONY : leetcode.s
 
 # target to generate assembly for a file
-leetcode.cc.s:
-	$(MAKE) -f CMakeFiles/leet_exe.dir/build.make CMakeFiles/leet_exe.dir/leetcode.cc.s
-.PHONY : leetcode.cc.s
+leetcode.cpp.s:
+	$(MAKE) -f CMakeFiles/leet_exe.dir/build.make CMakeFiles/leet_exe.dir/leetcode.cpp.s
+.PHONY : leetcode.cpp.s
 
 # Help Target
 help:

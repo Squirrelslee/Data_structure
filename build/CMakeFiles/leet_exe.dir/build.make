@@ -57,27 +57,27 @@ include CMakeFiles/leet_exe.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/leet_exe.dir/flags.make
 
-CMakeFiles/leet_exe.dir/leetcode.cc.o: CMakeFiles/leet_exe.dir/flags.make
-CMakeFiles/leet_exe.dir/leetcode.cc.o: ../leetcode.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marklee/find_a_job/git/Data_structure/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/leet_exe.dir/leetcode.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leet_exe.dir/leetcode.cc.o -c /home/marklee/find_a_job/git/Data_structure/leetcode.cc
+CMakeFiles/leet_exe.dir/leetcode.cpp.o: CMakeFiles/leet_exe.dir/flags.make
+CMakeFiles/leet_exe.dir/leetcode.cpp.o: ../leetcode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marklee/find_a_job/git/Data_structure/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/leet_exe.dir/leetcode.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leet_exe.dir/leetcode.cpp.o -c /home/marklee/find_a_job/git/Data_structure/leetcode.cpp
 
-CMakeFiles/leet_exe.dir/leetcode.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leet_exe.dir/leetcode.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marklee/find_a_job/git/Data_structure/leetcode.cc > CMakeFiles/leet_exe.dir/leetcode.cc.i
+CMakeFiles/leet_exe.dir/leetcode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leet_exe.dir/leetcode.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marklee/find_a_job/git/Data_structure/leetcode.cpp > CMakeFiles/leet_exe.dir/leetcode.cpp.i
 
-CMakeFiles/leet_exe.dir/leetcode.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leet_exe.dir/leetcode.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marklee/find_a_job/git/Data_structure/leetcode.cc -o CMakeFiles/leet_exe.dir/leetcode.cc.s
+CMakeFiles/leet_exe.dir/leetcode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leet_exe.dir/leetcode.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marklee/find_a_job/git/Data_structure/leetcode.cpp -o CMakeFiles/leet_exe.dir/leetcode.cpp.s
 
 # Object files for target leet_exe
 leet_exe_OBJECTS = \
-"CMakeFiles/leet_exe.dir/leetcode.cc.o"
+"CMakeFiles/leet_exe.dir/leetcode.cpp.o"
 
 # External object files for target leet_exe
 leet_exe_EXTERNAL_OBJECTS =
 
-leet_exe: CMakeFiles/leet_exe.dir/leetcode.cc.o
+leet_exe: CMakeFiles/leet_exe.dir/leetcode.cpp.o
 leet_exe: CMakeFiles/leet_exe.dir/build.make
 leet_exe: CMakeFiles/leet_exe.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/marklee/find_a_job/git/Data_structure/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable leet_exe"
