@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/marklee/find_a_job/git/Data_structure/build",
+  "command": "/usr/bin/g++   -I/home/marklee/find_a_job/git/Data_structure/include  -g   -o CMakeFiles/leet_exe.dir/leetcode.cpp.o -c /home/marklee/find_a_job/git/Data_structure/leetcode.cpp",
+  "file": "/home/marklee/find_a_job/git/Data_structure/leetcode.cpp"
+},
+{
+  "directory": "/home/marklee/find_a_job/git/Data_structure/build",
+  "command": "/usr/bin/g++   -I/home/marklee/find_a_job/git/Data_structure/include  -g   -o CMakeFiles/leet_exe.dir/src/algorithm.cpp.o -c /home/marklee/find_a_job/git/Data_structure/src/algorithm.cpp",
+  "file": "/home/marklee/find_a_job/git/Data_structure/src/algorithm.cpp"
+}
+]

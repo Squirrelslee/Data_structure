@@ -1,5 +1,7 @@
 #include <iostream>
+#include "algorithm.h"
+int main() {
 
-int main(){
+    
     return 0;
 }

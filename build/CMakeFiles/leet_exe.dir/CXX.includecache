@@ -6,7 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/marklee/find_a_job/git/Data_structure/leetcode.cpp
+../include/algorithm.h
 iostream
 -
+vector
+-
+unordered_map
+-
+
+/home/marklee/find_a_job/git/Data_structure/src/algorithm.cpp
+algorithm.h
+/home/marklee/find_a_job/git/Data_structure/src/algorithm.h
 

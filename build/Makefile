@@ -150,6 +150,33 @@ leetcode.cpp.s:
 	$(MAKE) -f CMakeFiles/leet_exe.dir/build.make CMakeFiles/leet_exe.dir/leetcode.cpp.s
 .PHONY : leetcode.cpp.s
 
+src/algorithm.o: src/algorithm.cpp.o
+
+.PHONY : src/algorithm.o
+
+# target to build an object file
+src/algorithm.cpp.o:
+	$(MAKE) -f CMakeFiles/leet_exe.dir/build.make CMakeFiles/leet_exe.dir/src/algorithm.cpp.o
+.PHONY : src/algorithm.cpp.o
+
+src/algorithm.i: src/algorithm.cpp.i
+
+.PHONY : src/algorithm.i
+
+# target to preprocess a source file
+src/algorithm.cpp.i:
+	$(MAKE) -f CMakeFiles/leet_exe.dir/build.make CMakeFiles/leet_exe.dir/src/algorithm.cpp.i
+.PHONY : src/algorithm.cpp.i
+
+src/algorithm.s: src/algorithm.cpp.s
+
+.PHONY : src/algorithm.s
+
+# target to generate assembly for a file
+src/algorithm.cpp.s:
+	$(MAKE) -f CMakeFiles/leet_exe.dir/build.make CMakeFiles/leet_exe.dir/src/algorithm.cpp.s
+.PHONY : src/algorithm.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... leetcode.o"
 	@echo "... leetcode.i"
 	@echo "... leetcode.s"
+	@echo "... src/algorithm.o"
+	@echo "... src/algorithm.i"
+	@echo "... src/algorithm.s"
 .PHONY : help
 
 

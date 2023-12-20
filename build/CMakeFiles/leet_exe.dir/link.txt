@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/leet_exe.dir/leetcode.cpp.o  -o leet_exe 
+/usr/bin/g++  -g   CMakeFiles/leet_exe.dir/leetcode.cpp.o CMakeFiles/leet_exe.dir/src/algorithm.cpp.o  -o leet_exe 
