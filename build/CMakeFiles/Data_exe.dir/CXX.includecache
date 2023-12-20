@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-../include/Graph.hpp
-queue
--
-string
--
-
 ../include/arrayCirculatequeue.hpp
 
 ../include/arrayList.hpp
@@ -55,6 +49,4 @@ chainMGraph.hpp
 /home/marklee/find_a_job/git/Data_structure/chainMGraph.hpp
 iostream
 -
-Graph.hpp
-/home/marklee/find_a_job/git/Data_structure/Graph.hpp
 
