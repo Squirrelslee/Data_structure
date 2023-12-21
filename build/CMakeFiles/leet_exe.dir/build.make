@@ -70,29 +70,29 @@ CMakeFiles/leet_exe.dir/leetcode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leet_exe.dir/leetcode.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marklee/find_a_job/git/Data_structure/leetcode.cpp -o CMakeFiles/leet_exe.dir/leetcode.cpp.s
 
-CMakeFiles/leet_exe.dir/src/algorithm.cpp.o: CMakeFiles/leet_exe.dir/flags.make
-CMakeFiles/leet_exe.dir/src/algorithm.cpp.o: ../src/algorithm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marklee/find_a_job/git/Data_structure/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/leet_exe.dir/src/algorithm.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leet_exe.dir/src/algorithm.cpp.o -c /home/marklee/find_a_job/git/Data_structure/src/algorithm.cpp
+CMakeFiles/leet_exe.dir/src/RandomizedSet.cpp.o: CMakeFiles/leet_exe.dir/flags.make
+CMakeFiles/leet_exe.dir/src/RandomizedSet.cpp.o: ../src/RandomizedSet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marklee/find_a_job/git/Data_structure/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/leet_exe.dir/src/RandomizedSet.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/leet_exe.dir/src/RandomizedSet.cpp.o -c /home/marklee/find_a_job/git/Data_structure/src/RandomizedSet.cpp
 
-CMakeFiles/leet_exe.dir/src/algorithm.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leet_exe.dir/src/algorithm.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marklee/find_a_job/git/Data_structure/src/algorithm.cpp > CMakeFiles/leet_exe.dir/src/algorithm.cpp.i
+CMakeFiles/leet_exe.dir/src/RandomizedSet.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leet_exe.dir/src/RandomizedSet.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marklee/find_a_job/git/Data_structure/src/RandomizedSet.cpp > CMakeFiles/leet_exe.dir/src/RandomizedSet.cpp.i
 
-CMakeFiles/leet_exe.dir/src/algorithm.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leet_exe.dir/src/algorithm.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marklee/find_a_job/git/Data_structure/src/algorithm.cpp -o CMakeFiles/leet_exe.dir/src/algorithm.cpp.s
+CMakeFiles/leet_exe.dir/src/RandomizedSet.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leet_exe.dir/src/RandomizedSet.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marklee/find_a_job/git/Data_structure/src/RandomizedSet.cpp -o CMakeFiles/leet_exe.dir/src/RandomizedSet.cpp.s
 
 # Object files for target leet_exe
 leet_exe_OBJECTS = \
 "CMakeFiles/leet_exe.dir/leetcode.cpp.o" \
-"CMakeFiles/leet_exe.dir/src/algorithm.cpp.o"
+"CMakeFiles/leet_exe.dir/src/RandomizedSet.cpp.o"
 
 # External object files for target leet_exe
 leet_exe_EXTERNAL_OBJECTS =
 
 leet_exe: CMakeFiles/leet_exe.dir/leetcode.cpp.o
-leet_exe: CMakeFiles/leet_exe.dir/src/algorithm.cpp.o
+leet_exe: CMakeFiles/leet_exe.dir/src/RandomizedSet.cpp.o
 leet_exe: CMakeFiles/leet_exe.dir/build.make
 leet_exe: CMakeFiles/leet_exe.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/marklee/find_a_job/git/Data_structure/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable leet_exe"

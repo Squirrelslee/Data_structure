@@ -150,32 +150,32 @@ leetcode.cpp.s:
 	$(MAKE) -f CMakeFiles/leet_exe.dir/build.make CMakeFiles/leet_exe.dir/leetcode.cpp.s
 .PHONY : leetcode.cpp.s
 
-src/algorithm.o: src/algorithm.cpp.o
+src/RandomizedSet.o: src/RandomizedSet.cpp.o
 
-.PHONY : src/algorithm.o
+.PHONY : src/RandomizedSet.o
 
 # target to build an object file
-src/algorithm.cpp.o:
-	$(MAKE) -f CMakeFiles/leet_exe.dir/build.make CMakeFiles/leet_exe.dir/src/algorithm.cpp.o
-.PHONY : src/algorithm.cpp.o
+src/RandomizedSet.cpp.o:
+	$(MAKE) -f CMakeFiles/leet_exe.dir/build.make CMakeFiles/leet_exe.dir/src/RandomizedSet.cpp.o
+.PHONY : src/RandomizedSet.cpp.o
 
-src/algorithm.i: src/algorithm.cpp.i
+src/RandomizedSet.i: src/RandomizedSet.cpp.i
 
-.PHONY : src/algorithm.i
+.PHONY : src/RandomizedSet.i
 
 # target to preprocess a source file
-src/algorithm.cpp.i:
-	$(MAKE) -f CMakeFiles/leet_exe.dir/build.make CMakeFiles/leet_exe.dir/src/algorithm.cpp.i
-.PHONY : src/algorithm.cpp.i
+src/RandomizedSet.cpp.i:
+	$(MAKE) -f CMakeFiles/leet_exe.dir/build.make CMakeFiles/leet_exe.dir/src/RandomizedSet.cpp.i
+.PHONY : src/RandomizedSet.cpp.i
 
-src/algorithm.s: src/algorithm.cpp.s
+src/RandomizedSet.s: src/RandomizedSet.cpp.s
 
-.PHONY : src/algorithm.s
+.PHONY : src/RandomizedSet.s
 
 # target to generate assembly for a file
-src/algorithm.cpp.s:
-	$(MAKE) -f CMakeFiles/leet_exe.dir/build.make CMakeFiles/leet_exe.dir/src/algorithm.cpp.s
-.PHONY : src/algorithm.cpp.s
+src/RandomizedSet.cpp.s:
+	$(MAKE) -f CMakeFiles/leet_exe.dir/build.make CMakeFiles/leet_exe.dir/src/RandomizedSet.cpp.s
+.PHONY : src/RandomizedSet.cpp.s
 
 # Help Target
 help:
@@ -189,9 +189,9 @@ help:
 	@echo "... leetcode.o"
 	@echo "... leetcode.i"
 	@echo "... leetcode.s"
-	@echo "... src/algorithm.o"
-	@echo "... src/algorithm.i"
-	@echo "... src/algorithm.s"
+	@echo "... src/RandomizedSet.o"
+	@echo "... src/RandomizedSet.i"
+	@echo "... src/RandomizedSet.s"
 .PHONY : help
 
 

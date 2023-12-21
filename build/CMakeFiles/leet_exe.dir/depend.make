@@ -4,6 +4,6 @@
 CMakeFiles/leet_exe.dir/leetcode.cpp.o: ../include/algorithm.h
 CMakeFiles/leet_exe.dir/leetcode.cpp.o: ../leetcode.cpp
 
-CMakeFiles/leet_exe.dir/src/algorithm.cpp.o: ../include/algorithm.h
-CMakeFiles/leet_exe.dir/src/algorithm.cpp.o: ../src/algorithm.cpp
+CMakeFiles/leet_exe.dir/src/RandomizedSet.cpp.o: ../include/algorithm.h
+CMakeFiles/leet_exe.dir/src/RandomizedSet.cpp.o: ../src/RandomizedSet.cpp
 

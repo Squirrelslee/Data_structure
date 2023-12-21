@@ -8,4 +8,4 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g")
 
 include_directories(${CMAKE_SOURCE_DIR}/include)
 
-add_executable(leet_exe leetcode.cpp src/algorithm.cpp)
+add_executable(leet_exe leetcode.cpp src/RandomizedSet.cpp)
