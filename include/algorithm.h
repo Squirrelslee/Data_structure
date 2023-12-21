@@ -7,15 +7,17 @@
 #include <iostream>
 #include <vector>
 #include <unordered_map>
+#include <ctime>
 
-
-class Pig
-{
+class RandomizedSet {
 public:
-    Pig(){}
-    void Insert(int val);
-
+    RandomizedSet();   
+    bool insert(int val);   
+    bool remove(int val);
+    //将nums最后一位移动动需要删除的位置，保存下来，使用vector的尾删法删除
+    //并且删除哈希val，
+    int getRandom();
 private:
-    std::unordered_map<int, std::string> pigone;
     std::vector<int> nums;
+    std::unordered_map<int, int> Random;
 };
