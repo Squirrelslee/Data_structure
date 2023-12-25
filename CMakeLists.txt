@@ -4,4 +4,4 @@ project(CPPNEWCHARACTERISTIC)
 
 include_directories(${CMAKE_SOURCE_DIR}/include)
 
-add_executable(CppNewCharacteristic_exe CppNewCharacteristic.cpp)
+add_executable(Cpp_New_Characteristic_exe CppnewCharacterisitic src/auto.cpp)

@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/CppNewCharacteristic_exe.dir/CppNewCharacteristic.cpp.o  -o CppNewCharacteristic_exe 

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/auto.h
+iostream
+-
+
+/home/marklee/find_a_job/git/Data_structure/CppnewCharacterisitic.cpp
+auto.h
+/home/marklee/find_a_job/git/Data_structure/auto.h
+
+/home/marklee/find_a_job/git/Data_structure/src/auto.cpp
+auto.h
+/home/marklee/find_a_job/git/Data_structure/src/auto.h
+

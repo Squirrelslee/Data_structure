@@ -111,44 +111,71 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named CppNewCharacteristic_exe
+# Target rules for targets named Cpp_New_Characteristic_exe
 
 # Build rule for target.
-CppNewCharacteristic_exe: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 CppNewCharacteristic_exe
-.PHONY : CppNewCharacteristic_exe
+Cpp_New_Characteristic_exe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Cpp_New_Characteristic_exe
+.PHONY : Cpp_New_Characteristic_exe
 
 # fast build rule for target.
-CppNewCharacteristic_exe/fast:
-	$(MAKE) -f CMakeFiles/CppNewCharacteristic_exe.dir/build.make CMakeFiles/CppNewCharacteristic_exe.dir/build
-.PHONY : CppNewCharacteristic_exe/fast
+Cpp_New_Characteristic_exe/fast:
+	$(MAKE) -f CMakeFiles/Cpp_New_Characteristic_exe.dir/build.make CMakeFiles/Cpp_New_Characteristic_exe.dir/build
+.PHONY : Cpp_New_Characteristic_exe/fast
 
-CppNewCharacteristic.o: CppNewCharacteristic.cpp.o
+CppnewCharacterisitic.o: CppnewCharacterisitic.cpp.o
 
-.PHONY : CppNewCharacteristic.o
+.PHONY : CppnewCharacterisitic.o
 
 # target to build an object file
-CppNewCharacteristic.cpp.o:
-	$(MAKE) -f CMakeFiles/CppNewCharacteristic_exe.dir/build.make CMakeFiles/CppNewCharacteristic_exe.dir/CppNewCharacteristic.cpp.o
-.PHONY : CppNewCharacteristic.cpp.o
+CppnewCharacterisitic.cpp.o:
+	$(MAKE) -f CMakeFiles/Cpp_New_Characteristic_exe.dir/build.make CMakeFiles/Cpp_New_Characteristic_exe.dir/CppnewCharacterisitic.cpp.o
+.PHONY : CppnewCharacterisitic.cpp.o
 
-CppNewCharacteristic.i: CppNewCharacteristic.cpp.i
+CppnewCharacterisitic.i: CppnewCharacterisitic.cpp.i
 
-.PHONY : CppNewCharacteristic.i
+.PHONY : CppnewCharacterisitic.i
 
 # target to preprocess a source file
-CppNewCharacteristic.cpp.i:
-	$(MAKE) -f CMakeFiles/CppNewCharacteristic_exe.dir/build.make CMakeFiles/CppNewCharacteristic_exe.dir/CppNewCharacteristic.cpp.i
-.PHONY : CppNewCharacteristic.cpp.i
+CppnewCharacterisitic.cpp.i:
+	$(MAKE) -f CMakeFiles/Cpp_New_Characteristic_exe.dir/build.make CMakeFiles/Cpp_New_Characteristic_exe.dir/CppnewCharacterisitic.cpp.i
+.PHONY : CppnewCharacterisitic.cpp.i
 
-CppNewCharacteristic.s: CppNewCharacteristic.cpp.s
+CppnewCharacterisitic.s: CppnewCharacterisitic.cpp.s
 
-.PHONY : CppNewCharacteristic.s
+.PHONY : CppnewCharacterisitic.s
 
 # target to generate assembly for a file
-CppNewCharacteristic.cpp.s:
-	$(MAKE) -f CMakeFiles/CppNewCharacteristic_exe.dir/build.make CMakeFiles/CppNewCharacteristic_exe.dir/CppNewCharacteristic.cpp.s
-.PHONY : CppNewCharacteristic.cpp.s
+CppnewCharacterisitic.cpp.s:
+	$(MAKE) -f CMakeFiles/Cpp_New_Characteristic_exe.dir/build.make CMakeFiles/Cpp_New_Characteristic_exe.dir/CppnewCharacterisitic.cpp.s
+.PHONY : CppnewCharacterisitic.cpp.s
+
+src/auto.o: src/auto.cpp.o
+
+.PHONY : src/auto.o
+
+# target to build an object file
+src/auto.cpp.o:
+	$(MAKE) -f CMakeFiles/Cpp_New_Characteristic_exe.dir/build.make CMakeFiles/Cpp_New_Characteristic_exe.dir/src/auto.cpp.o
+.PHONY : src/auto.cpp.o
+
+src/auto.i: src/auto.cpp.i
+
+.PHONY : src/auto.i
+
+# target to preprocess a source file
+src/auto.cpp.i:
+	$(MAKE) -f CMakeFiles/Cpp_New_Characteristic_exe.dir/build.make CMakeFiles/Cpp_New_Characteristic_exe.dir/src/auto.cpp.i
+.PHONY : src/auto.cpp.i
+
+src/auto.s: src/auto.cpp.s
+
+.PHONY : src/auto.s
+
+# target to generate assembly for a file
+src/auto.cpp.s:
+	$(MAKE) -f CMakeFiles/Cpp_New_Characteristic_exe.dir/build.make CMakeFiles/Cpp_New_Characteristic_exe.dir/src/auto.cpp.s
+.PHONY : src/auto.cpp.s
 
 # Help Target
 help:
@@ -158,10 +185,13 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... CppNewCharacteristic_exe"
-	@echo "... CppNewCharacteristic.o"
-	@echo "... CppNewCharacteristic.i"
-	@echo "... CppNewCharacteristic.s"
+	@echo "... Cpp_New_Characteristic_exe"
+	@echo "... CppnewCharacterisitic.o"
+	@echo "... CppnewCharacterisitic.i"
+	@echo "... CppnewCharacterisitic.s"
+	@echo "... src/auto.o"
+	@echo "... src/auto.i"
+	@echo "... src/auto.s"
 .PHONY : help
 
 
