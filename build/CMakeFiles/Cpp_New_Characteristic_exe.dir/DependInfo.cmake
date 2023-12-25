@@ -5,7 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/marklee/find_a_job/git/Data_structure/CppnewCharacterisitic.cpp" "/home/marklee/find_a_job/git/Data_structure/build/CMakeFiles/Cpp_New_Characteristic_exe.dir/CppnewCharacterisitic.cpp.o"
-  "/home/marklee/find_a_job/git/Data_structure/src/auto.cpp" "/home/marklee/find_a_job/git/Data_structure/build/CMakeFiles/Cpp_New_Characteristic_exe.dir/src/auto.cpp.o"
+  "/home/marklee/find_a_job/git/Data_structure/src/Auto.cpp" "/home/marklee/find_a_job/git/Data_structure/build/CMakeFiles/Cpp_New_Characteristic_exe.dir/src/Auto.cpp.o"
+  "/home/marklee/find_a_job/git/Data_structure/src/Decltype.cpp" "/home/marklee/find_a_job/git/Data_structure/build/CMakeFiles/Cpp_New_Characteristic_exe.dir/src/Decltype.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

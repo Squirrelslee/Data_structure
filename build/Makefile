@@ -150,32 +150,59 @@ CppnewCharacterisitic.cpp.s:
 	$(MAKE) -f CMakeFiles/Cpp_New_Characteristic_exe.dir/build.make CMakeFiles/Cpp_New_Characteristic_exe.dir/CppnewCharacterisitic.cpp.s
 .PHONY : CppnewCharacterisitic.cpp.s
 
-src/auto.o: src/auto.cpp.o
+src/Auto.o: src/Auto.cpp.o
 
-.PHONY : src/auto.o
+.PHONY : src/Auto.o
 
 # target to build an object file
-src/auto.cpp.o:
-	$(MAKE) -f CMakeFiles/Cpp_New_Characteristic_exe.dir/build.make CMakeFiles/Cpp_New_Characteristic_exe.dir/src/auto.cpp.o
-.PHONY : src/auto.cpp.o
+src/Auto.cpp.o:
+	$(MAKE) -f CMakeFiles/Cpp_New_Characteristic_exe.dir/build.make CMakeFiles/Cpp_New_Characteristic_exe.dir/src/Auto.cpp.o
+.PHONY : src/Auto.cpp.o
 
-src/auto.i: src/auto.cpp.i
+src/Auto.i: src/Auto.cpp.i
 
-.PHONY : src/auto.i
+.PHONY : src/Auto.i
 
 # target to preprocess a source file
-src/auto.cpp.i:
-	$(MAKE) -f CMakeFiles/Cpp_New_Characteristic_exe.dir/build.make CMakeFiles/Cpp_New_Characteristic_exe.dir/src/auto.cpp.i
-.PHONY : src/auto.cpp.i
+src/Auto.cpp.i:
+	$(MAKE) -f CMakeFiles/Cpp_New_Characteristic_exe.dir/build.make CMakeFiles/Cpp_New_Characteristic_exe.dir/src/Auto.cpp.i
+.PHONY : src/Auto.cpp.i
 
-src/auto.s: src/auto.cpp.s
+src/Auto.s: src/Auto.cpp.s
 
-.PHONY : src/auto.s
+.PHONY : src/Auto.s
 
 # target to generate assembly for a file
-src/auto.cpp.s:
-	$(MAKE) -f CMakeFiles/Cpp_New_Characteristic_exe.dir/build.make CMakeFiles/Cpp_New_Characteristic_exe.dir/src/auto.cpp.s
-.PHONY : src/auto.cpp.s
+src/Auto.cpp.s:
+	$(MAKE) -f CMakeFiles/Cpp_New_Characteristic_exe.dir/build.make CMakeFiles/Cpp_New_Characteristic_exe.dir/src/Auto.cpp.s
+.PHONY : src/Auto.cpp.s
+
+src/Decltype.o: src/Decltype.cpp.o
+
+.PHONY : src/Decltype.o
+
+# target to build an object file
+src/Decltype.cpp.o:
+	$(MAKE) -f CMakeFiles/Cpp_New_Characteristic_exe.dir/build.make CMakeFiles/Cpp_New_Characteristic_exe.dir/src/Decltype.cpp.o
+.PHONY : src/Decltype.cpp.o
+
+src/Decltype.i: src/Decltype.cpp.i
+
+.PHONY : src/Decltype.i
+
+# target to preprocess a source file
+src/Decltype.cpp.i:
+	$(MAKE) -f CMakeFiles/Cpp_New_Characteristic_exe.dir/build.make CMakeFiles/Cpp_New_Characteristic_exe.dir/src/Decltype.cpp.i
+.PHONY : src/Decltype.cpp.i
+
+src/Decltype.s: src/Decltype.cpp.s
+
+.PHONY : src/Decltype.s
+
+# target to generate assembly for a file
+src/Decltype.cpp.s:
+	$(MAKE) -f CMakeFiles/Cpp_New_Characteristic_exe.dir/build.make CMakeFiles/Cpp_New_Characteristic_exe.dir/src/Decltype.cpp.s
+.PHONY : src/Decltype.cpp.s
 
 # Help Target
 help:
@@ -189,9 +216,12 @@ help:
 	@echo "... CppnewCharacterisitic.o"
 	@echo "... CppnewCharacterisitic.i"
 	@echo "... CppnewCharacterisitic.s"
-	@echo "... src/auto.o"
-	@echo "... src/auto.i"
-	@echo "... src/auto.s"
+	@echo "... src/Auto.o"
+	@echo "... src/Auto.i"
+	@echo "... src/Auto.s"
+	@echo "... src/Decltype.o"
+	@echo "... src/Decltype.i"
+	@echo "... src/Decltype.s"
 .PHONY : help
 
 

@@ -70,32 +70,47 @@ CMakeFiles/Cpp_New_Characteristic_exe.dir/CppnewCharacterisitic.cpp.s: cmake_for
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Cpp_New_Characteristic_exe.dir/CppnewCharacterisitic.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marklee/find_a_job/git/Data_structure/CppnewCharacterisitic.cpp -o CMakeFiles/Cpp_New_Characteristic_exe.dir/CppnewCharacterisitic.cpp.s
 
-CMakeFiles/Cpp_New_Characteristic_exe.dir/src/auto.cpp.o: CMakeFiles/Cpp_New_Characteristic_exe.dir/flags.make
-CMakeFiles/Cpp_New_Characteristic_exe.dir/src/auto.cpp.o: ../src/auto.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marklee/find_a_job/git/Data_structure/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Cpp_New_Characteristic_exe.dir/src/auto.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Cpp_New_Characteristic_exe.dir/src/auto.cpp.o -c /home/marklee/find_a_job/git/Data_structure/src/auto.cpp
+CMakeFiles/Cpp_New_Characteristic_exe.dir/src/Auto.cpp.o: CMakeFiles/Cpp_New_Characteristic_exe.dir/flags.make
+CMakeFiles/Cpp_New_Characteristic_exe.dir/src/Auto.cpp.o: ../src/Auto.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marklee/find_a_job/git/Data_structure/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Cpp_New_Characteristic_exe.dir/src/Auto.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Cpp_New_Characteristic_exe.dir/src/Auto.cpp.o -c /home/marklee/find_a_job/git/Data_structure/src/Auto.cpp
 
-CMakeFiles/Cpp_New_Characteristic_exe.dir/src/auto.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Cpp_New_Characteristic_exe.dir/src/auto.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marklee/find_a_job/git/Data_structure/src/auto.cpp > CMakeFiles/Cpp_New_Characteristic_exe.dir/src/auto.cpp.i
+CMakeFiles/Cpp_New_Characteristic_exe.dir/src/Auto.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Cpp_New_Characteristic_exe.dir/src/Auto.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marklee/find_a_job/git/Data_structure/src/Auto.cpp > CMakeFiles/Cpp_New_Characteristic_exe.dir/src/Auto.cpp.i
 
-CMakeFiles/Cpp_New_Characteristic_exe.dir/src/auto.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Cpp_New_Characteristic_exe.dir/src/auto.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marklee/find_a_job/git/Data_structure/src/auto.cpp -o CMakeFiles/Cpp_New_Characteristic_exe.dir/src/auto.cpp.s
+CMakeFiles/Cpp_New_Characteristic_exe.dir/src/Auto.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Cpp_New_Characteristic_exe.dir/src/Auto.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marklee/find_a_job/git/Data_structure/src/Auto.cpp -o CMakeFiles/Cpp_New_Characteristic_exe.dir/src/Auto.cpp.s
+
+CMakeFiles/Cpp_New_Characteristic_exe.dir/src/Decltype.cpp.o: CMakeFiles/Cpp_New_Characteristic_exe.dir/flags.make
+CMakeFiles/Cpp_New_Characteristic_exe.dir/src/Decltype.cpp.o: ../src/Decltype.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marklee/find_a_job/git/Data_structure/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Cpp_New_Characteristic_exe.dir/src/Decltype.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Cpp_New_Characteristic_exe.dir/src/Decltype.cpp.o -c /home/marklee/find_a_job/git/Data_structure/src/Decltype.cpp
+
+CMakeFiles/Cpp_New_Characteristic_exe.dir/src/Decltype.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Cpp_New_Characteristic_exe.dir/src/Decltype.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marklee/find_a_job/git/Data_structure/src/Decltype.cpp > CMakeFiles/Cpp_New_Characteristic_exe.dir/src/Decltype.cpp.i
+
+CMakeFiles/Cpp_New_Characteristic_exe.dir/src/Decltype.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Cpp_New_Characteristic_exe.dir/src/Decltype.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marklee/find_a_job/git/Data_structure/src/Decltype.cpp -o CMakeFiles/Cpp_New_Characteristic_exe.dir/src/Decltype.cpp.s
 
 # Object files for target Cpp_New_Characteristic_exe
 Cpp_New_Characteristic_exe_OBJECTS = \
 "CMakeFiles/Cpp_New_Characteristic_exe.dir/CppnewCharacterisitic.cpp.o" \
-"CMakeFiles/Cpp_New_Characteristic_exe.dir/src/auto.cpp.o"
+"CMakeFiles/Cpp_New_Characteristic_exe.dir/src/Auto.cpp.o" \
+"CMakeFiles/Cpp_New_Characteristic_exe.dir/src/Decltype.cpp.o"
 
 # External object files for target Cpp_New_Characteristic_exe
 Cpp_New_Characteristic_exe_EXTERNAL_OBJECTS =
 
 Cpp_New_Characteristic_exe: CMakeFiles/Cpp_New_Characteristic_exe.dir/CppnewCharacterisitic.cpp.o
-Cpp_New_Characteristic_exe: CMakeFiles/Cpp_New_Characteristic_exe.dir/src/auto.cpp.o
+Cpp_New_Characteristic_exe: CMakeFiles/Cpp_New_Characteristic_exe.dir/src/Auto.cpp.o
+Cpp_New_Characteristic_exe: CMakeFiles/Cpp_New_Characteristic_exe.dir/src/Decltype.cpp.o
 Cpp_New_Characteristic_exe: CMakeFiles/Cpp_New_Characteristic_exe.dir/build.make
 Cpp_New_Characteristic_exe: CMakeFiles/Cpp_New_Characteristic_exe.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/marklee/find_a_job/git/Data_structure/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Cpp_New_Characteristic_exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/marklee/find_a_job/git/Data_structure/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Cpp_New_Characteristic_exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Cpp_New_Characteristic_exe.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

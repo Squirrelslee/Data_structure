@@ -74,12 +74,12 @@ clean: CMakeFiles/Cpp_New_Characteristic_exe.dir/clean
 CMakeFiles/Cpp_New_Characteristic_exe.dir/all:
 	$(MAKE) -f CMakeFiles/Cpp_New_Characteristic_exe.dir/build.make CMakeFiles/Cpp_New_Characteristic_exe.dir/depend
 	$(MAKE) -f CMakeFiles/Cpp_New_Characteristic_exe.dir/build.make CMakeFiles/Cpp_New_Characteristic_exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/marklee/find_a_job/git/Data_structure/build/CMakeFiles --progress-num=1,2,3 "Built target Cpp_New_Characteristic_exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/marklee/find_a_job/git/Data_structure/build/CMakeFiles --progress-num=1,2,3,4 "Built target Cpp_New_Characteristic_exe"
 .PHONY : CMakeFiles/Cpp_New_Characteristic_exe.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Cpp_New_Characteristic_exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/marklee/find_a_job/git/Data_structure/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/marklee/find_a_job/git/Data_structure/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Cpp_New_Characteristic_exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/marklee/find_a_job/git/Data_structure/build/CMakeFiles 0
 .PHONY : CMakeFiles/Cpp_New_Characteristic_exe.dir/rule

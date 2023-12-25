@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Cpp_New_Characteristic_exe.dir/CppnewCharacterisitic.cpp.o"
-  "CMakeFiles/Cpp_New_Characteristic_exe.dir/src/auto.cpp.o"
+  "CMakeFiles/Cpp_New_Characteristic_exe.dir/src/Auto.cpp.o"
+  "CMakeFiles/Cpp_New_Characteristic_exe.dir/src/Decltype.cpp.o"
   "Cpp_New_Characteristic_exe"
   "Cpp_New_Characteristic_exe.pdb"
 )
