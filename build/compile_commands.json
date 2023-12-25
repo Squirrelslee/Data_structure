@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/marklee/find_a_job/git/Data_structure/build",
+  "command": "/usr/bin/g++   -I/home/marklee/find_a_job/git/Data_structure/include   -g -g   -o CMakeFiles/Cpp_New_Characteristic_exe.dir/CppnewCharacterisitic.cpp.o -c /home/marklee/find_a_job/git/Data_structure/CppnewCharacterisitic.cpp",
+  "file": "/home/marklee/find_a_job/git/Data_structure/CppnewCharacterisitic.cpp"
+},
+{
+  "directory": "/home/marklee/find_a_job/git/Data_structure/build",
+  "command": "/usr/bin/g++   -I/home/marklee/find_a_job/git/Data_structure/include   -g -g   -o CMakeFiles/Cpp_New_Characteristic_exe.dir/src/auto.cpp.o -c /home/marklee/find_a_job/git/Data_structure/src/auto.cpp",
+  "file": "/home/marklee/find_a_job/git/Data_structure/src/auto.cpp"
+}
+]
