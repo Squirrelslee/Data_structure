@@ -50,10 +50,96 @@ void Dead_value()
     std::cout << "The contents of the vector are\"" << v[0]
                 << "\",\"" << v[1] << "\"\n";
 }
+
 //左值引用
+/*
+可以得出结论：对于左值引用，等号右边的值必须可以取地址，如果不能取地址，则会编译失败，
+或者可以使用const引用形式，但这样就只能通过引用来读取输出，不能修改数组，因为是常量引用。
+*/
+void left_reference()
+{
+    int a = 5;
+    int &b = a;
+    b = 4;
+    //int &c = 10;  //error,    10无法取地址，无法进行引用
+    const int &d = 10;//ok,     因为是常引用。引用常量数字，这个常量数字会存储在内存中，可以取地址
+}
 
 //右值引用
+void right_reference()
+{
+    int a = 4;
+    //int &&b = a;  //error, a是左值
+    int &&c = std::move(a);
+}
+
+//深拷贝，浅拷贝
+class A{
+public:
+    A(int size) :size_(size){
+        data_ = new int[size_];
+    }
+    A(){}
+    A(const A& a){
+        size_ = a.size_;
+        //data_ = a.data_;//这个数据指向了同一地址
+        /*
+        上面代码中，两个输出的是相同的地址，a和b的data_指针指向了同一块内存，这就是浅拷贝，
+        只是数据的简单赋值，那再析构时data_内存会被释放两次，
+        导致程序出问题，这里正常会出现double free导致程序崩溃的
+        */
+        data_ = new int[size_];
+        /*
+        深拷贝就是再拷贝对象时，如果被拷贝对象内部还有指针引用指向其它资源，
+        自己需要重新开辟一块新内存存储资源，而不是简单的赋值。
+        */
+        std::cout << "copy" << std::endl;
+    }
+    ~A(){
+        delete[] data_;
+    }
+    int *data_;
+    int size_;
+};
 
 //移动语义
+class B{
+public:
+    B(int size) : size_(size){
+        data_ = new int[size];
+    }
+    B(){}
+    B(const B& a){
+        size_ = a.size_;
+        data_ = new int[size_];
+        std::cout << "copy" << std::endl;
+    }
+    B(B&& a){
+        this->data_ = a.data_;
+        a.data_ = nullptr;
+        std::cout << "move " << std::endl;
+        /*
+        注意：移动语义仅针对于那些实现了移动构造函数的类的对象，
+        对于那种基本类型int、float等没有任何优化作用，
+        还是会拷贝，因为它们实现没有对应的移动构造函数。
+        */
+    }
+    ~B(){
+        if(data_ != nullptr){
+            delete[] data_;
+        }
+    }
+    int *data_;
+    int size_;
 
+};
+
+//完美转发
+/*
+完美转发指可以写一个接受任意实参的函数模板，并转发到其它函数，
+目标函数会收到与转发函数完全相同的实参，
+转发函数实参是左值那目标函数实参也是左值，
+转发函数实参是右值那目标函数实参也是右值。
+那如何实现完美转发呢，答案是使用std::forward()。
+*/
 //返回优化

@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+../include/Auto.h
+iostream
+-
+
 ../include/Auto_Decltype.hpp
 iostream
 -
@@ -23,6 +27,8 @@ vector
 -
 
 /home/marklee/find_a_job/git/Data_structure/CppnewCharacterisitic.cpp
+Auto.h
+/home/marklee/find_a_job/git/Data_structure/Auto.h
 Decltype.h
 /home/marklee/find_a_job/git/Data_structure/Decltype.h
 Auto_Decltype.hpp
