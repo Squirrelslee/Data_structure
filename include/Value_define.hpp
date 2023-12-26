@@ -142,4 +142,29 @@ public:
 转发函数实参是右值那目标函数实参也是右值。
 那如何实现完美转发呢，答案是使用std::forward()。
 */
-//返回优化
+void PrintV(int &t){
+    std::cout << "left_value" << std::endl;
+}
+void PrintV(int &&t){
+    std::cout << "right_value" << std::endl;
+}
+template <class T>
+void Perfect_Send(T &&t)
+{
+    PrintV(t);
+    PrintV(std::forward<T>(t));
+
+    PrintV(std::move(t));
+}
+
+//返回值优化
+/*
+返回值优化(RVO)是一种C++编译优化技术，当函数需要返回一个对象实例时候，
+就会创建一个临时对象并通过复制构造函数将目标对象复制到临时对象，
+这里有复制构造函数和析构函数会被多余的调用到，有代价，而通过返回值优化，C++标准允许省略调用这些复制构造函数。
+
+那什么时候编译器会进行返回值优化呢?
+
+return的值类型与函数的返回值类型相同
+return的是一个局部对象
+*/
